@@ -1,0 +1,38 @@
+    html {
+        font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    body {
+        background-color: #0080F9;
+    }
+    
+    .container h1 {
+        font-size: 64px;
+        text-align: center;
+        color: white;
+    }
+    
+    .container h3 {
+        font-size: 46px;
+        text-align: center;
+        color: white;
+    }
+    
+    .container h4 {
+        font-size: 24px;
+        text-align: center;
+        color: white;
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer {
+        margin-top: 19%;
+        margin-left: 37%;
+    }
