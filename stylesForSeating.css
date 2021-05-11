@@ -1,0 +1,364 @@
+/************ TAG SELECTORS ************/
+
+html {
+    /*height: 100%;*/
+}
+
+body {
+    background-color: #1C3E6A;
+    /*height: 100%;*/
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/************ CLASS SELECTORS ************/
+
+.main-container {
+    max-width: 1366px;
+    max-height: 768px;
+    margin: auto auto;
+}
+
+
+/* Height = 10%, Width = 70% */
+
+.header-seating-chart {
+    height: 76.8px;
+    width: 956.2px;
+    background-color: #1C3E6A;
+}
+
+.back-button-container {
+    height: 100%;
+    width: 95.62px;
+    display: inline-block;
+}
+
+.back-btn {
+    width: 40px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.seating-chart-title-container {
+    height: 100%;
+    width: 860.58px;
+    background-color: #1C3E6A;
+    position: relative;
+    left: 95.62px;
+    top: -76.8px;
+}
+
+.seating-chart-title {
+    height: 100%;
+    width: 860.58px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+
+
+/*Height = 100% Width = 30%*/
+
+.right-container {
+    background-color: #1C3E6A;
+    height: 768px;
+    width: 409.8px;
+    position: relative;
+    left: 959px;
+    top: -768px;
+}
+
+
+/* Height = 90% Width = 70% */
+
+.seating-chart-container {
+    background-color: #1C3E6A;
+    height: 691.2px;
+    width: 956.2px;
+    margin: 0;
+}
+
+
+/* The elements at the top of the seating chart, Height = 15% */
+
+.seating-chart-top {
+    background-color: #1C3E6A;
+    height: 103.68px;
+    width: 100%;
+}
+
+.seating-chart-interactive {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 483.84px;
+    width: 100%;
+}
+
+
+/* The elements at the bottom of the seating chart, Height = 15% */
+
+.seating-chart-bottom {
+    background-color: #1C3E6A;
+    height: 103.68px;
+    width: 100%;
+}
+
+.seatdeetz-logo-background {
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 200px;
+    opacity: .4;
+}
+
+.header-student-information {
+    width: 409.8px;
+    height: 76.82px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.student-information-title {
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+.student-information-container {
+    background-color: #1C3E6A;
+    width: 409.8px;
+    height: 691.2px;
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    visibility: hidden;
+}
+
+
+/* Height = 10% of student information container */
+
+.student-information-container-row {
+    width: 409.8px;
+    height: 69.12px;
+}
+
+
+/* Contains the labels of input fields, width = 30% container */
+
+.student-information-label {
+    display: inline-block;
+    width: 122.94px;
+    height: 69.12px;
+}
+
+
+/* Contains the input fields, width = 70% container */
+
+.student-information-input {
+    display: inline-block;
+    width: 286.86px;
+    height: 69.12px;
+    position: absolute;
+}
+
+.input-label {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.name-input {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 1.2rem;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+/* Assignment dropdown in Student Information Container */
+
+.assignment-dropdown {
+    /*display: none;
+    visibility: hidden;*/
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+}
+
+.assignment-grade-input {
+  /*  display: none;
+    visibility: hidden;*/
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 1.2rem;
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+}
+
+.birthday-input {
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+  font-size: 1.2rem;
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+}
+
+
+/* Height = 90% of student information container */
+
+.additional-information-container {
+    width: 409.8px;
+    height: 483.84px;
+}
+
+.additional-information-textbox {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.btn {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 9px 6px;
+    background-color: #F62431;
+    color: white;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* Hover only when button is enabled */
+
+.btn:hover:enabled {
+    background-color: #c90202;
+    color: white;
+}
+
+.select-template-btn {
+    visibility: hidden;
+    display: none;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+
+/* Assignment dropdown in Main Seating Chart Container */
+
+.assignment-dropdown-main {
+    display: none;
+    visibility: hidden;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: 27px;
+    left: 520px;
+}
+
+.add-seat-btn {
+    position: relative;
+    top: 12px;
+    left: 20px;
+}
+
+.show-student-btn {
+    position: relative;
+    top: 62px;
+    left: -184px;
+}
+
+.save-chart-btn {
+    width: 210px;
+    position: relative;
+    top: 12px;
+    left: 40px;
+}
+
+.export-chart-btn {
+    width: 150px;
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
+
+.lock-container {
+    color: white;
+    width: 100px;
+    height: 100%;
+    position: relative;
+    top: -41px;
+    left: 850px;
+    z-index: 1;
+}
+
+.lock-img {
+    width: 50px;
+    display: block;
+    margin: 10px auto 5px auto;
+}
+
+.lock-caption {
+    text-align: center;
+}
+
+.seat-object-btn {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 8px;
+    margin: 0 auto;
+    padding: 2px 2px;
+    background-color: red;
+    color: black;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.seat-container {
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5px;
+    display: inline-block;
+    position: absolute;
+    /* SET POSITION: ABSOLUTE IN ORDER TO STANDARDIZE INITIAL COORDINATES*/
+    /* position: absolute; */
+}
+
+.seat-object-student-name {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-y: auto;
+    color: black;
+}

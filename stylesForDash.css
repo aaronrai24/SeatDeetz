@@ -1,0 +1,188 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+html {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}
+
+body {
+    align-content: center;
+    background-color: #1C3E6A;
+    max-width: 1366px;
+    max-height: 768px;
+    margin: auto auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    align-content: center;
+    font-size: xxx-large;
+}
+
+h2 {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+p {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-style: italic;
+}
+
+.EditClass {
+    position: relative;
+    left: 540px;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #F62431;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+}
+
+.EditClass:hover {
+    background-color: rgba(252, 90, 90, 1.00);
+}
+
+.UserTop {
+    font-size: 2rem;
+}
+
+.directory-container {
+    width: 1366px;
+    height: 400px;
+}
+
+.name-container {}
+
+.back-button {
+    position: relative;
+    left: 5px;
+}
+
+.class-edit-container {
+    width: 1366px;
+    height: 100px;
+}
+
+.SeatingChart {
+    width: 400px;
+    height: 235px;
+    background-color: #F62431;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    top: 10px;
+    transform: translateY(-85px);
+    margin: 15;
+    padding: 5;
+    font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.SeatingChart:hover {
+    background-color: rgba(252, 90, 90, 1.00);
+}
+
+.Grades {
+    display: none;
+    visibility: hidden;
+    width: 400px;
+    height: 235px;
+    background-color: #F62431;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    transform: translateY(2px);
+    top: 10px;
+    margin: 15;
+    padding: 5;
+    font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.Grades:hover {
+    background-color: rgba(252, 90, 90, 1.00);
+}
+
+.Students {
+    width: 400px;
+    height: 235px;
+    background-color: #F62431;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    top: 10px;
+    transform: translateY(-10px);
+    margin-left: 180;
+    margin-right: 15;
+    padding: 5;
+    font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.Students:hover {
+    background-color: rgba(252, 90, 90, 1.00);
+}
+
+
+/* Adjusts div holding the seating chart button */
+
+.seating-chart-container {
+    position: relative;
+    top: 125px;
+    left: 270px;
+}
+
+
+/* Adjusts image in seating chart button div */
+
+.seating-chart-img {
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+
+/* Adjusts image in grades button div */
+
+.grades-img {
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+
+
+/* Adjusts div holding the grades button */
+
+.GradeButtonHolder {
+    position: relative;
+    bottom: 149px;
+}
+
+
+/* Adjusts div holding the students button */
+
+.StudentButtonHolder {
+    position: relative;
+    bottom: 237px;
+    left: 700px;
+}

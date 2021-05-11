@@ -1,0 +1,198 @@
+body {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    max-width: 1366px;
+    max-height: 768px;
+    margin: auto auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.side-menu {}
+
+.body-container {
+    width: 1366px;
+    height: 768px;
+}
+
+#userSettings {
+    position: relative;
+    left: 98%;
+    top: 5%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    /* font-family: Eras ITC Light; */
+    font-size: 45pt;
+    letter-spacing: 3pt;
+    font-weight: bolder;
+    color: white;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.dropDownMenu {
+    top: 40%;
+    left: 45%;
+    position: absolute;
+    min-width: 160px;
+    display: block;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+
+select {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    position: relative;
+    display: block;
+    width: 15em;
+    height: 4em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+
+.btn {
+    top: 50%;
+    left: 47.5%;
+    position: absolute;
+    min-width: 160px;
+    display: block;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+
+button {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c90202;
+    color: black;
+}
+
+.addButton {
+    top: 60%;
+    left: 47.5%;
+    width: 350px;
+    position: absolute;
+    min-width: 160px;
+    display: block;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+
+
+/*
+.body-container {}
+.DemoClass {
+    width: 255px;
+    height: 235px;
+    text-align: center;
+    vertical-align: auto;
+    border-radius: 35px;
+    border-style: none;
+    position: absolute;
+    top: 400px;
+    left: 825px;
+    margin-left: 180;
+    margin-right: 15;
+    padding: 5;
+    font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.Class1 {
+    width: 255px;
+    height: 235px;
+    background-color: #C4DC6E;
+    border-radius: 35px;
+    border-style: none;
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    margin-left: 180;
+    margin-right: 15;
+    padding: 5;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 38pt;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+
+/*.Class2{
+    width: 255px;
+    height: 235px;
+    background-color: #03BBD2;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    top: 12%;
+    margin: 15;
+    padding: 5;
+    /* font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight:bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+
+.Class3{
+    width: 255px;
+    height: 235px;
+    background-color: #81BE41;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    top: 12%;
+    margin: 15;
+    padding: 5;
+    font-family: Eras ITC;
+    font-size: 38pt;
+    font-weight:bolder;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.addClass{
+    width: 255px;
+    height: 235px;
+    background-color: white;
+    border-radius: 35px;
+    border-style: none;
+    position: relative;
+    top: 16%;
+    margin: 15;
+    padding: 5;
+    font-family: Helvetica Narrow;
+    font-size: 120pt;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    color: rgb(177, 177, 177);
+}
+*/

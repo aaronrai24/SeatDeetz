@@ -1,0 +1,18 @@
+Idea: Use global variables to pull the primary key from current table.
+For all other phps hardcoded to pull primary key of table, change
+to pull the global from class switch.
+
+
+Steps in process:
+1) check if session variable holding the class exists, if not create it. 
+2) if session variable holding the class is empty, assign it default value
+(Perhaps create script that automatically does steps 1 and 2 at login, in login.php?)
+3) assign selected class to the global variable.
+4) update all the other phps so that they pull the global variable instead of hardcoded tables.
+*/
+
+Schedule / Goals:
+3/20: in register.php, write script to make 10 classes upon new user registering. In login.php, implement session variable (session variable = what class is selected)
+    and enable default value of session variable (assign it to one of the 10 classes associated with the user)
+3/21: UI: in ClassSelection.php, implement 10 buttons that display the 10 premade classes, display selected class on Dashboard, and ensure
+    the different classes 

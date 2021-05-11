@@ -1,0 +1,262 @@
+html {
+    background-color: #1C3E6A;
+    /*font-family: "Eras ITC";*/
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+
+}
+
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+  max-width: 1366px;
+  max-height: 768px;
+  margin: auto auto;
+}
+
+.title-container {
+  width: 1366px;
+  height: 100px;
+}
+
+.back-button-container {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    overflow: hidden;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.newTable {
+    color: #F62431;
+    font-weight: bold;
+    text-align: right;
+    font-weight: 1;
+}
+
+.newTable td {
+    height: 30px;
+    font-size: 25px;
+}
+
+.newTable tr {
+    color: white;
+}
+
+.header {
+    padding-right: 25px;
+    color: white;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2 {
+    color: white;
+    font-family: "Eras ITC";
+    font-size: 50px;
+    text-align: center;
+}
+
+.returnButton {
+  position: absolute;
+  left:0px;
+  top: 0px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #F62431;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.CreateClassText {
+    width: 500%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #F62431;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}
+
+input[type="text"]{
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}
+
+input[type="date"] {
+  color: red;
+  text-align: center;
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}
+
+input[type="date"]::before {
+  content: attr(placeholder);
+  width: 100%;
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+  color: grey;
+}
+
+/* hide our custom/fake placeholder text when in focus to show the default
+ * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
+ */
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+  display: none;
+}
+
+.buttons {
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 140px;
+}
+
+.addButtonDiv {
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 225px;
+}
+
+.listViewBtn {
+    display: block;
+    padding-top: 10px;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 175px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.importFileBtn {
+    display: block;
+    margin: 10px;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    background-color: #F62431;
+    color: white;
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: limegreen;
+}
+
+.buttonsGroup:after {
+    padding-top: 10px;
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+    width: 800px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px 4px #F62431;
+}
+
+.btn {
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.addBtn {
+  font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+}
+
+.newButton {
+    padding-left: 103px;
+}
+
+th {
+    font-size: 20px;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td {
+    font-size: 14px;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tableStyle {
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px;
+    list-style: none;
+    font-size: 0;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Eras ITC";
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 110px;
+}

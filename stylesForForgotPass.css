@@ -1,0 +1,93 @@
+html {
+    background-color: #1C3E6A;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}
+
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+  max-width: 1366px;
+  max-height: 768px;
+  margin: auto auto;
+}
+
+.container {
+    max-width: 600px;
+    overflow: hidden;
+    padding-left: 400px;
+    padding-top: 150px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    /*border-bottom: 3px solid #F62431;*/
+}
+
+.title-container {
+  width: 1366px;
+  height: 100px;
+}
+
+.back-button-container {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #F62431;
+    transition: 0.5s;
+}
+
+.form-group {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #F62431;
+    transition: 0.5s;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px 4px #F62431;
+}
+
+.buttons {
+    padding-left: 225px;
+}
+
+.btn {
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Eras ITC", "Eras Light ITC", "Nunito Sans", sans-serif;
+}

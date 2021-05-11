@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Exporting DIV as a PNG</title>
+
+    <style>
+        .centerButton
+        {
+            margin: auto;
+            width: 30%; 
+            color: #ffffff;
+            background: #ff0000;
+            text-align: center;
+            border: 3px solid black;
+            padding: 10px;
+        }
+
+        .seatingChartExample
+        {
+            margin: auto;
+            padding: 10px;
+            background: #2127d9;
+            border: 3px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Below is the element to be captured in the Canvas.-->
+    <div id="outer" style="width:50%">
+        <div id="capture" class="seatingChartExample">
+            <h2 style="color: #ffffff; ">This would be the seating chart.</h2>
+        </div>
+    </div>
+
+    <br />
+
+    <!--Button that calls the exporting Canvas Function.-->
+    <button id ="exportCanvas" class="centerButton">
+        <b>Export Seating Chart</b>
+    </button>
+
+    <!--Scripts to be imported...
+    I believe we should save all of our scriptsand inlcude them
+    in our project and save it as a library. So if any of the servers
+    that host the scripts move or get disconnected, we wont have to reconnect them.-->
+    <script src="html2canvas.min.js"></script>
+
+<script>
+    document.getElementById("exportCanvas").addEventListener("click", function ()
+    {
+        //In order to get a proper export, the width and height MUST be
+        //determined in the outside or 'boundry' DIV. In this case, the DIV with the ID = "#app"
+        //If size is not determined from that DIV, it will capture the entire width
+        //of the webapp near that DIV. So we will need to copy the sizing applied to the seating chart DIV
+        //and apply it to the outside DIV in this interpretation of the solution.
+        html2canvas(document.querySelector('#outer')).then(function (canvas)
+        {
+            saveAs(canvas.toDataURL(), 'Seating Chart.png');
+        });
+    });
+
+    function saveAs(url, filename)
+    {
+        var link = document.createElement('a');
+        if (typeof link.download == 'string')
+        {
+            link.href = url;
+            link.download = filename;
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        else
+        {
+            window.open(url);
+        }
+    }
+</script>
+</body>
+</html>
